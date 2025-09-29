@@ -72,15 +72,39 @@ switch(userInput){
 
 
 	}
+	
+	else if(userInput == 1){System.out.println("1.Search");
+}
 
+	
+	
+	else if(userInput == 2){System.out.println("2.Service Nos");
+	}
+
+	else if(userInput == 3){System.out.println("3.Add Name");
+}
+
+
+	else if(userInput == 4){System.out.println("4.Erase");
+}
+
+	else if(userInput == 5){System.out.println("5.Edit");
+}
+
+	else if(userInput == 6){System.out.println("6.Assign tone");
+	}
+
+	else if(userInput == 7){System.out.println("7.Send b'card");}
+
+	else if(userInput == 9){System.out.println("9.Speed dials");}
+
+	else if(userInput == 10){System.out.println("10.Voice Tags");
+}
+
+	else{System.out.print("Invalid Number");}
 
 	}
 	
-
-
-
-
-
 
 
 	case 2 ->{
@@ -137,23 +161,70 @@ switch(userInput){
 	else{System.out.print("Invalid number");}
 	}
 
-	}	
+	if(userInput == 2){
+	
+	System.out.println("1.Delivery reports");
+	System.out.println("2.Reply via same centre");
+	System.out.println("3.Character support");	
+	
+
+	System.out.print("Enter a menu number: ");
+	userInput = scanner.nextInt();
+
+	
+	if(userInput == 1){System.out.println("1.Delivery reports");
 	}
 
+	else if(userInput == 2){System.out.println("2.Reply via same centre");
+	}
+
+	else if(userInput == 3){System.out.println("3.Character support");
+	}
+
+	else{System.out.print("Invalid number");}
+	}
+	
+	}
+
+	else if(userInput == 1){System.out.println("1.Write messages");}
+
+	else if(userInput == 2){System.out.println("2.Inbox");
+}
+
+	else if(userInput == 3){System.out.println("3.Outbox");
+}
+
+	else if(userInput == 4){System.out.println("4.Picture messages");
+}
+
+	else if(userInput == 5){System.out.println("5.Templates");
+}
+
+	else if(userInput == 6){System.out.println("6.Smileys");}
+
+	
+	else if(userInput == 8){System.out.println("8.Info service");
+}
+
+	else if(userInput == 9){System.out.println("9.Voice mailbox number");}
+
+	else if(userInput == 10){
+	System.out.println("10.Service command editor");}
+
+		
+	
+		else{System.out.println("Invalid Number");}
+	
+	}
 
 	
 	
-
-	
-	
-	
 	
 
-
+	
+	
 	
 
-
-	
 
 	case 3 ->{
 	
@@ -255,6 +326,27 @@ switch(userInput){
 	else{System.out.println("Invalid number");}
 
 	}
+
+	else if(userInput == 1){System.out.println("1.Missed calls");	
+}
+
+	else if(userInput == 2){System.out.println("2.Received calls");	
+}
+
+	else if(userInput == 3){System.out.println("3.Dialed numbers");	
+}
+
+	else if(userInput == 4){System.out.println("4.Erase recent call lists");}
+
+	else if(userInput == 8){System.out.println("8.Prepaid credit");
+}
+
+	else{System.out.println("Invalid number");}
+
+
+	
+
+
 
 
 	}
@@ -394,7 +486,13 @@ switch(userInput){
 	else{System.out.println("Invalid number");}
 
 
-	}	
+	}
+
+	else if(userInput == 4){System.out.println("4.Restore factory settings");}
+
+
+	else{System.out.println("Invalid number");}
+	
 
 	}
 
